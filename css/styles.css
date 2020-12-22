@@ -47,7 +47,7 @@ header h1 {
 }
 
 #logo {
-   width: 30%;
+   width: 35%;
    object-fit: cover;
    margin-left: 5px;
    margin-top: 5px;
@@ -104,7 +104,7 @@ header h1 {
 
 }
 
-#banner { 
+#container_banner { 
 	width: 1400px;
 	height: 620px;
 	text-align: center;
