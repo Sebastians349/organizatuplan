@@ -13,6 +13,7 @@
 :root {
 	background-color: #F0F9F7;
 	--main-color: #577590;
+	--main-bg_color: #F0F9F7 ;
 	color: white;
 
 }
@@ -23,19 +24,100 @@ body {
 }
 
 header, section, footer {
-	width: 1393px;
+	width: 1600px;
 	margin-right: auto;
 	margin-left: auto;
 
 }
 
 header {
-	height: 50px;
+	height: 75px;
 	background-color: var(--main-color);
 
 }
 
 header h1 {
 	font-weight: lighter;
+
+}
+
+#marca {
+	width: 650px;
+	float: left;
+}
+
+#logo {
+   width: 30%;
+   object-fit: cover;
+   margin-left: 5px;
+   margin-top: 5px;
+   color: white;
+   filter: invert(1);
+}
+
+#botonera_redes {
+	width: 700px;
+}
+
+#botonera_redes ul { 
+	display: block;
+	float: right;
+}
+
+#botonera_redes ul li{
+	display: inline-block;
+}
+
+#botonera_redes ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	padding-right: 3px;
+	padding-left: 3px;
+
+}
+
+
+.float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  	z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+#index {
+	width: 1600px;
+	height: 500px;
+
+
+}
+
+#banner { 
+	width: 1400px;
+	height: 620px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	margin-top: 15px;
+
+ }
+
+#shop {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 
 }
