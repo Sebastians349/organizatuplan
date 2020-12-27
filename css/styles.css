@@ -11,9 +11,9 @@
 }
 
 :root {
-	background-color: #F0F9F7;
-	--main-color: #577590;
-	--main-bg_color: #F0F9F7 ;
+	background-color: #F0F9F7; /*Cream mint*/
+	--main-color: #577590; /*azul Plan*/
+	--main-bg_color: #F0F9F7 ;/*Cream mint*/
 	color: white;
 
 }
@@ -49,19 +49,36 @@ header h1 {
 #logo {
    width: 35%;
    object-fit: cover;
-   margin-left: 5px;
-   margin-top: 5px;
+   margin-left: 10px;
+   margin-top: 10px;
    color: white;
    filter: invert(1);
+   text-decoration: none;
 }
 
+
+/***************NAV**********/
+
 #botonera_redes {
-	width: 700px;
+	height: 75px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#botonera_redes img {
+	width: 55%;
+	float: right;
+	filter: invert(100%);
+	margin: 0;
+	padding: 0;
+
 }
 
 #botonera_redes ul { 
 	display: block;
-	float: right;
+
 }
 
 #botonera_redes ul li{
@@ -70,31 +87,27 @@ header h1 {
 
 #botonera_redes ul li a {
 	text-decoration: none;
-	font-size: 16px;
-	color: white;
-	padding-right: 3px;
-	padding-left: 3px;
-
+	
+	
 }
 
 
-.float {
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  	font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  	z-index:100;
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
 }
 
-.my-float{
-	margin-top:16px;
+.whatsapp-icon {
+  margin-top:13px;
 }
 
 #index {
