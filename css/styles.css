@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
+:root {
+	background-color: #F0F9F7; /*Cream mint*/
+	color: white;
+	--main-color: #577590; /*azul Plan*/
+	--main-bg_color: #F0F9F7 ;/*Cream mint*/
+}
 
 
 * {
@@ -10,13 +16,7 @@
 	margin: 0;
 }
 
-:root {
-	background-color: #F0F9F7; /*Cream mint*/
-	--main-color: #577590; /*azul Plan*/
-	--main-bg_color: #F0F9F7 ;/*Cream mint*/
-	color: white;
 
-}
 
 body {
 	font-family: 'Reem Kufi', sans-serif;
@@ -57,7 +57,7 @@ header h1 {
 }
 
 
-/***************NAV**********/
+/*************** NAV **********/
 
 #botonera_redes {
 	height: 75px;
@@ -91,6 +91,7 @@ header h1 {
 	
 }
 
+/******** boton api whatsapp *******/
 
 .whatsapp {
   position:fixed;
@@ -110,6 +111,8 @@ header h1 {
   margin-top:13px;
 }
 
+/********* tamaño section *******/
+
 #index {
 	width: 1600px;
 	height: 500px;
@@ -118,15 +121,15 @@ header h1 {
 }
 
 #container_banner { 
-	width: 1400px;
-	height: 620px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid black;
-	margin-top: 15px;
+	margin-left: 150px;
+	margin-top: 5px;
 
  }
+
+ #container_banner img {
+ 	width: 85%;
+
+} 
 
 #shop {
 	text-align: center;
