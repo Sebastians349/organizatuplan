@@ -24,7 +24,7 @@ body {
 }
 
 header, section, footer {
-	width: 1600px;
+	width: 1595px;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -32,8 +32,8 @@ header, section, footer {
 
 header {
 	height: 75px;
-	background-color: var(--main-color);
-	border-radius: 0px 50px 50px 0px;
+	margin-left: 5px;
+	margin-top: 5px;
 
 }
 
@@ -44,7 +44,10 @@ header h1 {
 
 #marca {
 	width: 650px;
+	background-color: var(--main-color);
+	border-radius: 0px 50px 50px 0px;
 	float: left;
+	
 }
 
 #logo {
@@ -58,20 +61,25 @@ header h1 {
 }
 
 
-/*************** NAV **********/
+/*************** botonera redes**********/
 
 #botonera_redes {
 	width: 300px;
 	height: 70px;
 	float: right;
-	margin-right: 35px;
+	margin-right: 150px;
+	margin-top: 20px;
+
 	
 }
 
 #botonera_redes img {
-	width: 45px;
-	filter: invert(1);
+	width: 35px;
 	margin-top: 20px;
+	border-radius: 50px;
+	border: transparent;
+	color: white;	
+	filter: invert(1);
 }
 
 #botonera_redes ul { 
@@ -87,15 +95,18 @@ header h1 {
 
 #botonera_redes ul li a {
 	text-decoration: none;
-	padding-top: 35px;
+	padding-top: 22px;
 	padding-left: 5px;
 	padding-right: 5px;
+	background-color: var(--main-color);
+	border-radius: 50px;
+	border: transparent;
 	
 }
 
 #botonera_redes ul li a:hover {
 	background-color: #6687A3;
-	border-radius: 4px;
+	border-radius: 50px;
 
 }
 #botonera_redes ul li a:hover img {
@@ -128,8 +139,6 @@ header h1 {
 #index {
 	width: 1600px;
 
-
-
 }
 
 #container_banner { 
@@ -137,7 +146,7 @@ header h1 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15px;
+	margin-top: 25px;
 
 	
  }
@@ -160,26 +169,25 @@ header h1 {
 	background-color: #577590;
 	border-radius: 4px 50px 50px 4px;
 	padding: 12px;
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 22px;
 	border: transparent;
 }
 
 .btn_shop a {
-	padding: 12px;
 	border-radius: 4px 50px 50px 4px;
 	text-decoration: none;
 	color: #F0F9F7;
 	font-size: 22px;
-	font-weight: bold;
 
 }
 
 .btn_shop a:hover {
-	padding: 12px;
 	border-radius: 4px 50px 50px 4px;
-	background-color: #6687A3;
+	font-weight: bolder;
 	border: transparent;
 
 
 }
+
+
+/******************1024 px *********************/
