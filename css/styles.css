@@ -5,8 +5,9 @@
 :root {
 	background-color: #F0F9F7; /*Cream mint*/
 	color: white;
-	--main-color: #577590; /*azul Plan*/
+	--main-color: #6687A3; /*azul Plan*/
 	--main-bg_color: #F0F9F7 ;/*Cream mint*/
+
 }
 
 
@@ -68,24 +69,28 @@ header h1 {
 	height: 70px;
 	float: right;
 	margin-right: 150px;
-	margin-top: 20px;
+	background-color: var(--main-color);
+	border-radius: 0px 50px 50px 0px;
+
 
 	
 }
 
 #botonera_redes img {
 	width: 35px;
-	margin-top: 20px;
-	border-radius: 50px;
-	border: transparent;
-	color: white;	
+	margin-top: 30px;
 	filter: invert(1);
+
+
+
 }
 
 #botonera_redes ul { 
 	display: block;
 	list-style-type: none;
 	float: right;
+	margin-right: 15px;
+
 
 }
 
@@ -98,19 +103,21 @@ header h1 {
 	padding-top: 22px;
 	padding-left: 5px;
 	padding-right: 5px;
-	background-color: var(--main-color);
 	border-radius: 50px;
 	border: transparent;
 	
 }
 
 #botonera_redes ul li a:hover {
-	background-color: #6687A3;
-	border-radius: 50px;
 
 }
 #botonera_redes ul li a:hover img {
-		filter: invert(1);
+	filter: invert(1);
+}
+
+#follow {
+	color: var(--main-bg_color);
+
 }
 
 
