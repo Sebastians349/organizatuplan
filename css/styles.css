@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
 :root {
-	background-color: white; /*Cream mint*/
+	background-color: white; 
 	color: white;
 	--main-color: #577590; /*azul Plan*/
 	--main-bg_color: #F0F9F7 ;/*Cream mint*/
@@ -16,14 +16,6 @@
 	margin: 0;
 }
 
-.olas {
-	white-space: nowrap;
-
-}
-
-
-
-
 
 body {
 	font-family: 'Reem Kufi', sans-serif;
@@ -32,34 +24,45 @@ body {
 
 header, section, footer {
 	width: 1600px;
+	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
 
 }
 
 header {
-	background-color: var(--main-bg_color);
-	border-radius: 0px 50px 50px 0px;
+	position: relative;
+	height: 120px;
 
-}
-
-header h1 {
-	font-weight: lighter;
-	color: black;
-	margin-left: 5em;
 }
 
 #marca {
-	
-	width: 750px;
+	background-color: var(--main-color);
+	color: var(--main-bg_color);
 	float: left;
 }
 
+/* header h1 {
+	margin-left: 6.2em;
+	margin-top: 0.2em;
+} */
+
+header p {
+	float: left;
+	font-size: smaller;
+	font-weight: lighter;
+	color: whitesmoke;
+	margin-left: .6em;
+
+}
+
+
 #logo {
-   width: 55%;
-   margin-left: 1.1em;
-   margin-top: 0;
-   filter: invert(0);
+   clear: both;
+   width: 20%;
+   float: left;
+   margin-left: 0.5em;
+   filter: invert(1);
    text-decoration: none;
 }
 
@@ -69,15 +72,15 @@ header h1 {
 #botonera_redes {
 	width: 300px;
 	height: 70px;
-	float: left;
-	margin-left: 22.3em;
-	margin-top: 3.8em;
+	float: right;
+	margin-top: .9em;
+	margin-right: 1.5em;
 	
 }
 
 #botonera_redes img {
-	width: 45px;
-	filter: invert(0);
+	width: 40px;
+	filter: invert(1);
 	margin-top: 20px;
 }
 
@@ -147,7 +150,7 @@ header h1 {
  #container_banner img {
  	width: 100%;
 	border-radius: 4px;
-	margin-top: 3em; 
+	margin-top: 1em; 
 
 } 
 
@@ -155,21 +158,21 @@ header h1 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3em;
+	margin-top: 2em;
 
 }
 
 .btn_shop {
-	background-color: #577590;
+	background-color: #43aa8b;
 	border-radius: 4px 50px 50px 4px;
-	padding: 12px;
+	padding: 18px;
 	font-size: 20px;
 	font-weight: bold;
 	border: transparent;
 }
 
 .btn_shop a {
-	padding: 12px;
+	padding: 18px;
 	border-radius: 4px 50px 50px 4px;
 	text-decoration: none;
 	color: #F0F9F7;
@@ -179,7 +182,7 @@ header h1 {
 }
 
 .btn_shop a:hover {
-	padding: 12px;
+	padding: 18px;
 	border-radius: 4px 50px 50px 4px;
 	border: transparent;
 	font-weight: normal;
@@ -193,4 +196,29 @@ header h1 {
 	margin-left: auto;
 	margin-right: auto;
 
+}
+
+.reno_titulo {
+	color: black;
+	font-weight: lighter;
+	background-color: white;
+}
+
+.reno_bajada {
+	color: black;
+	font-weight: lighter;
+	background-color: white;
+
+}
+
+footer {
+	height: 5em;
+	background-color: var(--main-color);
+}
+
+footer p {
+	font-size: larger;
+	text-align: center;
+	line-height: 4em;
+	color: var(--main-bg_color);
 }
