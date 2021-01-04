@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
 :root {
-	background-color: #F0F9F7; /*Cream mint*/
+	background-color: white; /*Cream mint*/
 	color: white;
 	--main-color: #577590; /*azul Plan*/
 	--main-bg_color: #F0F9F7 ;/*Cream mint*/
@@ -16,8 +16,9 @@
 	margin: 0;
 }
 
-#olas {
-	vertical-align: top;
+.olas {
+	white-space: nowrap;
+
 }
 
 
@@ -37,29 +38,28 @@ header, section, footer {
 }
 
 header {
-	height: 75px;
-	background-color: var(--main-color);
+	background-color: var(--main-bg_color);
 	border-radius: 0px 50px 50px 0px;
 
 }
 
 header h1 {
 	font-weight: lighter;
-
+	color: black;
+	margin-left: 5em;
 }
 
 #marca {
-	width: 650px;
+	
+	width: 750px;
 	float: left;
 }
 
 #logo {
-   width: 35%;
-   object-fit: cover;
-   margin-left: 10px;
-   margin-top: 10px;
-   color: white;
-   filter: invert(1);
+   width: 55%;
+   margin-left: 1.1em;
+   margin-top: 0;
+   filter: invert(0);
    text-decoration: none;
 }
 
@@ -69,14 +69,15 @@ header h1 {
 #botonera_redes {
 	width: 300px;
 	height: 70px;
-	float: right;
-	margin-right: 35px;
+	float: left;
+	margin-left: 22.3em;
+	margin-top: 3.8em;
 	
 }
 
 #botonera_redes img {
 	width: 45px;
-	filter: invert(1);
+	filter: invert(0);
 	margin-top: 20px;
 }
 
@@ -100,7 +101,6 @@ header h1 {
 }
 
 #botonera_redes ul li a:hover {
-	background-color: #6687A3;
 	border-radius: 4px;
 
 }
@@ -134,23 +134,20 @@ header h1 {
 #index {
 	width: 1600px;
 
-
-
 }
 
 #container_banner { 
-	width: 1300px;
+	width: 1200px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15px;
 
-	
  }
 
  #container_banner img {
  	width: 100%;
- 	border-radius: 4px;
+	border-radius: 4px;
+	margin-top: 3em; 
 
 } 
 
@@ -158,7 +155,7 @@ header h1 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15px;
+	margin-top: 3em;
 
 }
 
@@ -184,8 +181,16 @@ header h1 {
 .btn_shop a:hover {
 	padding: 12px;
 	border-radius: 4px 50px 50px 4px;
-	background-color: #6687A3;
 	border: transparent;
+	font-weight: normal;
+}
 
+#renovando {
+	width: 500px;
+	background-color: var(--main-bg_color);
+	text-align: center;
+	margin-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
 
 }
