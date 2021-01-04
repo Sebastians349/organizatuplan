@@ -44,44 +44,50 @@ header h1 {
 }
 
 #marca {
-	width: 650px;
-	background-color: var(--main-color);
+	width: 1550px;
+	height: 75px;
+	background-color: #577590;
 	border-radius: 0px 50px 50px 0px;
 	float: left;
 	
 }
 
 #logo {
-   width: 35%;
-   object-fit: cover;
-   margin-left: 10px;
-   margin-top: 10px;
+   width: 17%;
+   float: right;
+   margin-right: 30px;
+   margin-top: 5px;
    color: white;
    filter: invert(1);
    text-decoration: none;
 }
 
+#bajada {
+	display: inline-block;
+	float: none;
+	margin-top: 0.9em;
+	margin-left: 0.5em;
 
-/*************** botonera redes**********/
+}
+
+
+/*************** footer botonera redes**********/
 
 #botonera_redes {
-	width: 300px;
-	height: 70px;
-	float: right;
-	margin-right: 150px;
-	background-color: var(--main-color);
+	
+	height: 45px;
+	float: left;
+	margin-top: 2.5em;
+	margin-left: 5px;
+	background-color: #577590;
 	border-radius: 0px 50px 50px 0px;
 
-
-	
 }
 
 #botonera_redes img {
 	width: 35px;
-	margin-top: 30px;
+	margin-top: .4em;
 	filter: invert(1);
-
-
 
 }
 
@@ -90,7 +96,6 @@ header h1 {
 	list-style-type: none;
 	float: right;
 	margin-right: 15px;
-
 
 }
 
@@ -109,7 +114,7 @@ header h1 {
 }
 
 #botonera_redes ul li a:hover {
-
+	filter: invert(1);
 }
 #botonera_redes ul li a:hover img {
 	filter: invert(1);
@@ -117,7 +122,10 @@ header h1 {
 
 #follow {
 	color: var(--main-bg_color);
-
+	float: left;
+	margin-top: .7em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
 }
 
 
@@ -173,7 +181,7 @@ header h1 {
 }
 
 .btn_shop {
-	background-color: #577590;
+	background-color: #9FC680;
 	border-radius: 4px 50px 50px 4px;
 	padding: 12px;
 	font-size: 22px;
@@ -183,7 +191,7 @@ header h1 {
 .btn_shop a {
 	border-radius: 4px 50px 50px 4px;
 	text-decoration: none;
-	color: #F0F9F7;
+	color: black;
 	font-size: 22px;
 
 }
