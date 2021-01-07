@@ -1,4 +1,16 @@
+/*// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+@media all (min-width: 992px) and (max-width: 1199px) {
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
@@ -23,7 +35,7 @@ body {
 }
 
 header, section, footer {
-	width: 1600px;
+	width: 960px;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -31,14 +43,13 @@ header, section, footer {
 }
 
 header {
-	height: 120px;
+	height: 90px;
 
 }
 
 #marca {
 	background-color: var(--main-color);
 	color: var(--main-bg_color);
-	float: left;
 }
 
 /* header h1 {
@@ -48,18 +59,19 @@ header {
 
 header p {
 	float: left;
-	font-size: smaller;
+	font-size: 0.5em;
 	font-weight: lighter;
 	color: whitesmoke;
-	margin-left: .6em;
+	margin-left: .99em;
 
 }
 
 
 #logo {
    clear: both;
-   width: 20%;
+   width: 25%;
    float: left;
+   margin-top: 0.1em;
    margin-left: 0.5em;
    filter: invert(1);
    text-decoration: none;
@@ -72,9 +84,8 @@ header p {
 	width: 300px;
 	height: 70px;
 	float: right;
-	margin-top: .9em;
-	margin-right: 1.5em;
-	
+/* 	margin-top: .2em;
+ */	margin-right: .2em;
 }
 
 #botonera_redes img {
@@ -107,9 +118,11 @@ header p {
 
 }
 #botonera_redes ul li a:hover img {
-		filter: invert(1);
+		filter: invert(0);
 }
-
+#redes_small {
+	display: none;
+}
 
 /******** boton api whatsapp *******/
 
@@ -118,7 +131,7 @@ header p {
   width:60px;
   height:60px;
   bottom:20px;
-  right:20px;
+  right:320px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
@@ -133,12 +146,12 @@ header p {
 
 /********* tamaño section *******/
 
-#index {
-	width: 1600px;
+#main {
+	width: 940px;
 
 }
 
-#container_banner { 
+/* #container_banner { 
 	width: 1200px;
 	text-align: center;
 	margin-left: auto;
@@ -151,13 +164,13 @@ header p {
 	border-radius: 4px;
 	margin-top: 1em; 
 
-} 
+}  */
 
 #shop {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2em;
+	margin-top: .5em;
 
 }
 
@@ -168,6 +181,12 @@ header p {
 	font-size: 20px;
 	font-weight: bold;
 	border: transparent;
+
+}
+
+.btn_shop {
+	transition: transform .2s;
+
 }
 
 .btn_shop a {
@@ -180,17 +199,16 @@ header p {
 
 }
 
-.btn_shop a:hover {
-	padding: 18px;
-	border-radius: 4px 50px 50px 4px;
-	border: transparent;
-	font-weight: normal;
+.btn_shop:hover {
+	-ms-transform: scale(1.1);
+  	-webkit-transform: scale(1.1); 
+  	transform: scale(1.1); 
 }
 
 #renovando {
 	width: 500px;
-	background-color: var(--main-bg_color);
-	text-align: center;
+/* 	background-color: var(--main-bg_color);
+ */	text-align: center;
 	margin-top: 3em;
 	margin-left: auto;
 	margin-right: auto;
@@ -213,6 +231,7 @@ header p {
 footer {
 	height: 5em;
 	background-color: var(--main-color);
+	margin-top: 50px;
 }
 
 footer p {
@@ -223,22 +242,11 @@ footer p {
 }
 
 
-/********************************FIN DISPOSITIVOS GRANDES***************************/
+/********************************FIN DISPOSITIVOS DEFAULT***************************/
 
-/*// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/********************************COMIENZO MEDIOS***************************/
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-@media all (min-width: 992px) and (max-width: 1199px) {
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-/********************************COMIENZO DEFAULT***************************/
 @media all and (min-width: 600px) and (max-width: 1023px) {
 
 
@@ -248,18 +256,16 @@ header, section, footer {
 }
 
 header {
-	height: 70px;
+	height: 80px;
 
 }
 
 
 header p {
 	float: left;
-	font-size: 0.5em;
-	font-weight: lighter;
-	color: whitesmoke;
-	margin-left: .9em;
-	margin-top: 1em;
+	font-size: 0.4em;
+	margin-left: 1.3em;
+	margin-top: 0.5em;
 
 }
 
@@ -270,7 +276,7 @@ header p {
 
 #logo {
    clear: both;
-   width: 20%;
+   width: 27%;
    float: left;
    margin-left: 0.5em;
    filter: invert(1);
@@ -281,161 +287,95 @@ header p {
 /*************** NAV **********/
 
 #botonera_redes {
-	width: 300px;
-	height: 70px;
-	float: right;
-	margin-top: .9em;
-	margin-right: 1.5em;
+	width: 200px;
+	height: auto;
+	margin-right: .5em;
+	
 	
 }
 
 #botonera_redes img {
-	width: 40px;
-	filter: invert(1);
-	margin-top: 20px;
+	width: 35px;
+	margin-top: 0.48em;
 }
 
-#botonera_redes ul { 
-	display: block;
-	list-style-type: none;
-	float: right;
-
-}
-
-#botonera_redes ul li{
-	display: inline-block;
-}
-
-#botonera_redes ul li a {
-	text-decoration: none;
-	padding-top: 35px;
-	padding-left: 5px;
-	padding-right: 5px;
-	
-}
-
-#botonera_redes ul li a:hover {
-	border-radius: 4px;
-
-}
 #botonera_redes ul li a:hover img {
-		filter: invert(1);
+		filter: invert(0);
 }
 
 
-/******** boton api whatsapp *******/
-
-.whatsapp {
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:20px;
-  right:20px;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:34px;
-  z-index:100;
-}
-
-.whatsapp-icon {
-  margin-top:13px;
-}
-
-/********* tamaño section *******/
-
-#index {
-	width: 1600px;
-
-}
-
-#container_banner { 
-	width: 1200px;
+#main {
+	width: 560px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 
- }
-
- #container_banner img {
- 	width: 100%;
-	border-radius: 4px;
-	margin-top: 1em; 
-
-} 
+}
 
 #shop {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 2em;
+	margin-top: 1em;
+
 
 }
 
 .btn_shop {
-	background-color: #43aa8b;
-	border-radius: 4px 50px 50px 4px;
-	padding: 18px;
-	font-size: 20px;
-	font-weight: bold;
-	border: transparent;
+	
+	font-size: 15px;
 }
 
 .btn_shop a {
-	padding: 18px;
-	border-radius: 4px 50px 50px 4px;
-	text-decoration: none;
-	color: #F0F9F7;
-	font-size: 22px;
-	font-weight: bold;
+	
+	font-size: 15px;
 
 }
 
-.btn_shop a:hover {
-	padding: 18px;
-	border-radius: 4px 50px 50px 4px;
-	border: transparent;
-	font-weight: normal;
-}
+
 
 #renovando {
-	width: 500px;
-	background-color: var(--main-bg_color);
-	text-align: center;
-	margin-top: 3em;
+	width: 540px;
+/* 	background-color: var(--main-bg_color);
+ */	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 3em;
 
 }
 
-.reno_titulo {
-	color: black;
-	font-weight: lighter;
-	background-color: white;
+.whatsapp {
+	width: 50px;
+	height: 50px;
+	bottom: auto;
+	right: 1rem;
+	font-size: 32px;
+	
 }
 
-.reno_bajada {
-	color: black;
-	font-weight: lighter;
-	background-color: white;
+.whatsapp-icon {
+	margin-top: 10px;
+}
 
+
+
+#catAnimation {
+	width: 350px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 footer {
-	height: 5em;
-	background-color: var(--main-color);
+	height: auto;
 }
 
 footer p {
-	font-size: larger;
+	font-size: small;
 	text-align: center;
-	line-height: 4em;
+	line-height: 5em;
 	color: var(--main-bg_color);
 }
 
 }
-/********************************FIN DISPOSITIVOS ***************************/
+/********************************FIN DISPOSITIVOS MEDIOS***************************/
 
 /*// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
@@ -449,5 +389,139 @@ footer p {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
-/********************************COMIENZO DEFAULT***************************/
+/********************************COMIENZO CHICOS ***************************/
+@media all and (max-width: 599px) {
 
+
+header, section, footer {
+	width: 100%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+header {
+	width: 100%;
+}
+
+
+header p {
+	font-size: 40%;
+	margin-top: 1.5%;
+}
+
+
+#logo {
+   width: 50%;
+	margin-top: 1.5%;
+   
+}
+
+
+/*************** NAV **********/
+
+#botonera_redes {
+	display: none;
+	
+}
+
+
+
+
+/********* tamaño section *******/
+
+#main {
+	width: 90%;
+
+}
+
+#shop {
+	width: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+
+}
+
+.btn_shop {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.btn_shop a {
+	color: #F0F9F7;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+
+
+#renovando {
+	width: 50%;
+	text-align: center;
+	margin-top: 3em;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#redes_small {
+	width: 100%;
+	display: inline;
+}
+
+#redes_small img {
+	width: 50%;
+	filter: invert(1);
+	margin-bottom: .5em;
+
+}
+
+#redes_small ul {
+	display: inline;
+
+}
+
+#redes_small ul li {
+	display: inline-block;
+}
+
+#redes_small ul li a {
+	padding: auto;
+}
+
+#redes_small ul li a:hover {
+	filter: invert(1);
+}
+
+
+footer {
+	height: auto;
+}
+
+footer p {
+	font-size: small;
+	line-height: 5em;
+}
+
+.whatsapp {
+	width:45px;
+	height:45px;
+	bottom:2.5em;
+	right:.25em;
+	font-size:30px;
+	z-index:100;
+  }
+  
+  .whatsapp-icon {
+	margin-top:0em;
+  }
+
+}
