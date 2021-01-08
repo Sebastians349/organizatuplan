@@ -229,7 +229,7 @@ header p {
 }
 
 footer {
-	height: 7em;
+	height: auto;
 	background-color: var(--main-color);
 	margin-top: 50px;
 }
