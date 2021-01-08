@@ -3,7 +3,7 @@ Temporal landing for Plan!
 From scratch.
 Resources: Pixeltrue free svg + lottie player.
 
-![Small screens] (https://i.postimg.cc/87SKrHRL/1.png)
-![Tablet screens] (https://i.postimg.cc/QFJ6gTmw/2.png)
-![Desktop screens] (https://i.postimg.cc/VSsKKkH6/3.png)
+![Small Screens thumbnail] (images/rd1.png) 
+![Tablet screens thumbnail] (images/rd2.png) 
+![Desktop screens thumbnail] (images/rd3.png) 
 
