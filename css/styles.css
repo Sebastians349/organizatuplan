@@ -426,28 +426,34 @@ header p {
 	
 }
 
-
-
-
 /********* tamaño section *******/
 
 #main {
-	width: 90%;
+	width: 100%;
 
 }
 
-#shop {
-	width: auto;
+#catAnimation {
+	width: 100%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#shop {
+	width: 90%;
+	height: auto;
 	margin-top: 2em;
 
 }
 
 .btn_shop {
-	font-size: 12px;
+	width: 100%;
+	height: auto;
 	font-weight: bold;
+	font-size: .9rem;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -456,15 +462,17 @@ header p {
 
 .btn_shop a {
 	color: #F0F9F7;
-	font-size: 12px;
+	font-size: .75em;
 	font-weight: bold;
-
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
 
 #renovando {
-	width: 50%;
+	width: 60%;
 	text-align: center;
 	margin-top: 3em;
 	margin-left: auto;
